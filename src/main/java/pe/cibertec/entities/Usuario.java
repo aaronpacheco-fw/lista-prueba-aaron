@@ -11,7 +11,13 @@ public class Usuario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
    private Long id;
-   private String nombre;
-   private String correo;
-   private String clave;
+     @Column(nullable = false)
+     private String nombre;
+
+     @Column(nullable=false)
+     private String correo;
+
+     @Column(nullable = false)
+     private String clave;
+
 }
