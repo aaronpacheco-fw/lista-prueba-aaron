@@ -3,6 +3,8 @@ package pe.cibertec.entities;
 import jakarta.persistence.*;
 import lombok.Data;
 
+
+
 @Data
 @Entity
 @Table(name= "usuarios")
