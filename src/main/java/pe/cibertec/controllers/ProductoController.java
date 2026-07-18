@@ -40,6 +40,7 @@ public class ProductoController {
                 .orElse(ResponseEntity.notFound().build());
 }
 
+
 @GetMapping("/buscar/{nombre}")
     public List<Producto>buscarPorNombre(@PathVariable String nombre){
 
